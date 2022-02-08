@@ -6,6 +6,7 @@ import LoginWrapper from './wrappers/LoginWrapper.jsx';
 import Feed from './pages/Feed.jsx';
 import Homepage from './pages/Homepage.jsx';
 import Hello from './pages/Hello.jsx';
+import Posts from './pages/Posts.jsx';
 
 import './assets/css/blinker.css';
 
@@ -29,6 +30,8 @@ function App() {
         <Route exact path="/loading" element={<LoginWrapper onlyLoad />} />
 
         <Route exact path="/hello/:name" element={<Hello />} />
+
+        <Route exact path="/posts" element={<Posts />} />
 
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>

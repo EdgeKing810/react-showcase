@@ -16,7 +16,7 @@ Packages:
 * Pick between different pages (use `history.push()`)
 * A custom page which displays data from `useParams`
 
-### 1. Paginated Posts Fetcher (PPF) [0/2]
+### 1. Paginated Posts Fetcher (PPF) [1/2]
 
 Packages:
 

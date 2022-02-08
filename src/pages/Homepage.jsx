@@ -36,6 +36,7 @@ export default function Homepage() {
         {makeListItem('Auto-Login Loading Screen', '/loading')}
         {makeListItem('Protected', '/protected')}
         {makeListItem('Hello {Your Name}', '/hello/test')}
+        {makeListItem('Paginated Posts', '/posts')}
       </ul>
     </div>
   );
