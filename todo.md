@@ -24,7 +24,7 @@ Packages:
 - react-paginate
 
 * Use `useState` + `useEffect` + `useContext` hooks
-* Pagination wrapper to fetch X by X amount of daat
+* Pagination wrapper to fetch X by X amount of data
 * Add to a state found in the `LocalContext`
 * Buttons at bottom of screen to alternate between different pages
 * Hover animations
