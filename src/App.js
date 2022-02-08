@@ -7,6 +7,7 @@ import Feed from './pages/Feed.jsx';
 import Homepage from './pages/Homepage.jsx';
 import Hello from './pages/Hello.jsx';
 import Posts from './pages/Posts.jsx';
+import LanguageTheme from './pages/LanguageTheme.jsx';
 
 import './assets/css/blinker.css';
 
@@ -32,6 +33,8 @@ function App() {
         <Route exact path="/hello/:name" element={<Hello />} />
 
         <Route exact path="/posts" element={<Posts />} />
+
+        <Route exact path="/language-theme" element={<LanguageTheme />} />
 
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>

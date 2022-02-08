@@ -37,6 +37,7 @@ export default function Homepage() {
         {makeListItem('Protected', '/protected')}
         {makeListItem('Hello {Your Name}', '/hello/test')}
         {makeListItem('Paginated Posts', '/posts')}
+        {makeListItem('Language / Theme', '/language-theme')}
       </ul>
     </div>
   );

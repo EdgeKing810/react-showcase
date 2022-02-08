@@ -22,6 +22,7 @@ Packages:
 
 - axios
 - react-paginate
+- react-lazyload
 
 * Use `useState` + `useEffect` + `useContext` hooks
 * Pagination wrapper to fetch X by X amount of data
@@ -29,14 +30,13 @@ Packages:
 * Buttons at bottom of screen to alternate between different pages
 * Hover animations
 
-### 2. Custom language + light/dark mode toggle [0/2]
+### 2. Custom language + light/dark mode toggle [1/2]
 
 Packages:
 
 - particles-bg
 - react-alert
 - react-alert-template-basic
-- react-lazyload
 
 * Some placeholder data
 * Light/Dark switch with animations/transitions
@@ -53,6 +53,7 @@ Packages:
 * Add / edit / delete todos
 * Popup display when edit
 * Popup display when delete (confirmation)
+* Mark as done (checkbox)
 * Associated functions in `zustand` store
 
 ### 4. Markdown Editor + Preview [0/2]
