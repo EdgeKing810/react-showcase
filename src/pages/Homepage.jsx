@@ -39,6 +39,7 @@ export default function Homepage() {
         {makeListItem('Paginated Posts', '/posts')}
         {makeListItem('Language / Theme', '/language-theme')}
         {makeListItem('Todos', '/todo')}
+        {makeListItem('Markdown Engine', '/markdown')}
       </ul>
     </div>
   );

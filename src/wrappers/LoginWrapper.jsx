@@ -36,13 +36,13 @@ export default function LoginWrapper({ children, onlyLoad }) {
           alert.success('Login Successful!');
         } else {
           console.log(data);
-          localStorage.clear();
+          // localStorage.clear();
           alert.error('Login Failed');
           navigate('/');
         }
       } else {
         alert.error('Login Failed');
-        localStorage.clear();
+        // localStorage.clear();
         navigate('/');
       }
     }

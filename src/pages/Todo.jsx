@@ -29,6 +29,8 @@ export default function Todos() {
   }, []);
 
   useEffect(() => {
+    setIsLoading(true);
+
     document.addEventListener('keydown', escFunction, false);
 
     return () => {
