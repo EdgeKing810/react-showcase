@@ -38,6 +38,7 @@ export default function Homepage() {
         {makeListItem('Hello {Your Name}', '/hello/test')}
         {makeListItem('Paginated Posts', '/posts')}
         {makeListItem('Language / Theme', '/language-theme')}
+        {makeListItem('Todos', '/todo')}
       </ul>
     </div>
   );
