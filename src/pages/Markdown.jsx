@@ -32,7 +32,7 @@ export default function Markdown() {
 
         <button
           className={`p-2 ml-2 w-1/2 justify-center font-gilroy tracking-wide text-main-300 text-opacity-75 flex items-center bg-gray-800 border-2 border-transparent rounded-lg outline-none hover:border-main-300 focus:border-main-300 ease-in-out duration-400`}
-          onClick={() => setShowPreview(false)}
+          onClick={() => setShowPreview(true)}
         >
           Preview
         </button>
