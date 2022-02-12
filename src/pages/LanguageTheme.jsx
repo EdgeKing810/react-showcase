@@ -23,7 +23,7 @@ export default function LanguageTheme() {
       .get(`https://jsonplaceholder.typicode.com/posts/${rand}/comments`)
       .then(async (response) => {
         if (response.data) {
-          setPosts([...response.data]);
+          setPosts([...response.data.slice(0, 3)]);
         } else {
           console.log(response.data);
         }
