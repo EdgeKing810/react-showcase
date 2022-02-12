@@ -43,7 +43,7 @@ Packages:
 * Build custom useLanguage hook
 * Ability to choose between different languages for the data
 
-### 3. Todolist maker + viewer [0/2]
+### 3. Todolist maker + viewer [1/2]
 
 Packages:
 
@@ -56,7 +56,7 @@ Packages:
 * Mark as done (checkbox)
 * Associated functions in `zustand` store
 
-### 4. Markdown Editor + Preview [0/2]
+### 4. Markdown Editor + Preview [1/2]
 
 Packages:
 

@@ -1,6 +1,8 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 
+import ParticlesBg from 'particles-bg';
+
 import useLanguage from '../wrappers/LanguageWrapper';
 
 export default function LanguageTheme() {
@@ -95,7 +97,15 @@ outline-none hover:border-main-300 ease-in-out duration-400`}
         {terms.welcome}
       </div>
 
-      <div className="w-full my-4 flex flex-col sm:grid grid-cols-2 lg:grid-cols-3 lg:justify-start gap-2 lg:gap-8 lg:pr-2 lg:pb-0">
+      <div
+        className={`w-full rounded-lg h-40 ${
+          theme === 'dark' ? 'bg-main-900' : 'bg-main-100'
+        } z-0 left-0 top-0 my-2 ease-out duration-400`}
+      >
+        <ParticlesBg type="color" bg={false} />
+      </div>
+
+      <div className="w-full my-4 flex flex-col sm:grid grid-cols-2 lg:grid-cols-3 lg:justify-start gap-2 lg:gap-8 lg:pb-0 mb-4">
         {posts.map((p) => (
           <div
             key={`post-${p.postId}-${p.id}`}
