@@ -1,7 +1,7 @@
 {
-  "name": "react-showcase",
+  "name": "@edgeking810/react-showcase",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@snowpack/app-scripts-react": "^2.0.1",
     "@testing-library/jest-dom": "^5.16.2",
